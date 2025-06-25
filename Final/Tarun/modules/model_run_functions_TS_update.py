@@ -1,19 +1,37 @@
+#Import necessary packages.
+#import tensorflow_hub as hub
+import os
+import pickle
 import torch
+import torch.nn as nn
 import pandas as pd
 import numpy as np
 from datetime import datetime
+from torch.utils.data import DataLoader
+from statsmodels.tsa.statespace.sarimax import SARIMAX
 from sklearn.preprocessing import RobustScaler, MinMaxScaler
+from modules.modules import LSTMModel, GoldPriceDataset, SetTransformer
 from modules.functions import *
-from modules.modules import *
-# ------------------------------------- Model Prediction Functions -------------------------------------
+# -------------------------------------------------------------------------
 
-def predict_next_day_gold_price_arimax(df: pd.DataFrame, model) -> float:
+def predict_next_day_gold_price_arimax(df: pd.DataFrame, model_dir, arima_order=(1, 1, 1)):
     """
     Predict next day's gold price using ARIMAX with technical indicators.
+    Loads today's model if exists, otherwise retrains and saves a new model.
 
     Returns:
-        tuple: (next_day_price)
+        tuple: (next_day_price, model_fit, predicted_pct_change)
     """
+    # -------------------------------
+    # Step 1: Setup
+    # -------------------------------
+    os.makedirs(model_dir, exist_ok=True)
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    model_path = os.path.join(model_dir, f"arimax_{today_str}.pkl")
+
+    # -------------------------------
+    # Step 2: Define Exogenous Features
+    # -------------------------------
     exog_cols = [
         'Returns', 'MA_5', 'MA_20', 'MA_50', 'Volatility',
         'RSI', 'BB_upper', 'BB_lower', 'BB_width',
@@ -34,19 +52,48 @@ def predict_next_day_gold_price_arimax(df: pd.DataFrame, model) -> float:
     exog = df[exog_cols]
 
     # -------------------------------
+    # Step 3: Check if today's model exists
+    # -------------------------------
+    if os.path.exists(model_path):
+        print(f"Loading existing ARIMAX model for today: {model_path}")
+        with open(model_path, "rb") as f:
+            model_fit = pickle.load(f)
+    else:
+        print("No model found for today. Retraining ARIMAX model...")
+
+        # Clean old models
+        for fname in os.listdir(model_dir):
+            if fname.startswith("arimax_") and fname.endswith(".pkl"):
+                os.remove(os.path.join(model_dir, fname))
+
+        # Train new model
+        model = SARIMAX(endog=y, exog=exog, order=arima_order,
+                        enforce_stationarity=False, enforce_invertibility=False)
+        model_fit = model.fit(disp=False, method='powell')
+
+        with open(model_path, "wb") as f:
+            pickle.dump(model_fit, f)
+        print(f"Saved new ARIMAX model to: {model_path}")
+
+    # -------------------------------
     # Forecast Next Price
     # -------------------------------
     next_exog = exog.iloc[[-1]].values
-    predicted_price = model.forecast(steps=1, exog=next_exog).iloc[0]
+    predicted_price = model_fit.forecast(steps=1, exog=next_exog).iloc[0]
 
     return predicted_price
 
-def predict_next_day_gold_price_xgboost(gold: pd.DataFrame, model) -> float:
-    """
-    Predict next day's gold price using XGBoost with technical indicators.
-    Returns:
-        tuple: (next_day_price)
-    """
+
+def predict_next_day_gold_price_xgboost(gold: pd.DataFrame, model_dir, test_size: float = 0.2, random_state: int = 42):
+    
+    os.makedirs(model_dir, exist_ok=True)
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    model_path = os.path.join(model_dir, f"xgboost_{today_str}.pkl")
+
+    # Remove old models
+    for fname in os.listdir(model_dir):
+        if fname.startswith("xgboost_") and fname.endswith(".pkl") and fname != f"xgboost_{today_str}.pkl":
+            os.remove(os.path.join(model_dir, fname))
 
     feature_cols = [
         'Returns', 'MA_5', 'MA_20', 'MA_50', 'Volatility',
@@ -77,6 +124,41 @@ def predict_next_day_gold_price_xgboost(gold: pd.DataFrame, model) -> float:
         (np.abs(gold_clean['Target_pct_change']) < 1.0)
     ]
 
+    if os.path.exists(model_path):
+        print(f"Loading XGBoost model from {model_path}")
+        with open(model_path, 'rb') as f:
+            model = pickle.load(f)
+    else:
+        X = gold_clean[feature_cols_extended]
+        y_pct = gold_clean['Target_pct_change']
+
+        split_idx = int(len(X) * (1 - test_size))
+        X_train, y_pct_train = X.iloc[:split_idx], y_pct.iloc[:split_idx]
+
+        scaler = RobustScaler()
+        X_train_scaled = scaler.fit_transform(X_train)
+
+        model = xgb.XGBRegressor(
+            n_estimators=400,
+            max_depth=10,
+            learning_rate=0.008,
+            min_child_weight=1,
+            subsample=0.95,
+            colsample_bytree=0.9,
+            reg_alpha=0.001,
+            reg_lambda=0.01,
+            gamma=0,
+            random_state=random_state,
+            objective='reg:squarederror',
+            tree_method='hist')
+
+        print("Training new XGBoost model...")
+        model.fit(X_train_scaled, y_pct_train)
+
+        with open(model_path, 'wb') as f:
+            pickle.dump(model, f)
+        print(f"Saved model to {model_path}")
+
     # Predict next day
     latest_features = gold_clean[feature_cols_extended].iloc[[-1]]
     latest_price = gold_clean['Close'].iloc[-1]
@@ -87,11 +169,21 @@ def predict_next_day_gold_price_xgboost(gold: pd.DataFrame, model) -> float:
 
     return next_day_price
 
-def predict_next_day_gold_price_rf(gold: pd.DataFrame, model) -> float:
+
+def predict_next_day_gold_price_rf(gold: pd.DataFrame, model_dir) -> float:
     """
     Predict next day's gold price using Random Forest with enhanced features.
     Saves model daily and loads if already exists. Returns price, model, and percentage change.
     """
+
+    os.makedirs(model_dir, exist_ok=True)
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    model_path = os.path.join(model_dir, f"random_forest_{today_str}.pkl")
+
+    # Clean old models
+    for fname in os.listdir(model_dir):
+        if fname.startswith("random_forest_") and fname.endswith(".pkl") and fname != f"random_forest_{today_str}.pkl":
+            os.remove(os.path.join(model_dir, fname))
 
     # Feature Engineering
     feature_cols = [
@@ -124,6 +216,24 @@ def predict_next_day_gold_price_rf(gold: pd.DataFrame, model) -> float:
     gold_clean.dropna(inplace=True)
     gold_clean = gold_clean[(np.abs(gold_clean['Target_pct_change']) < 1.0)]
 
+    if os.path.exists(model_path):
+        print(f"Loading existing Random Forest model for today: {model_path}")
+        with open(model_path, "rb") as f:
+            model = pickle.load(f)
+    else:
+        print("No model found for today. Training Random Forest model...")
+        X = gold_clean[feature_cols_extended]
+        y_pct = gold_clean['Target_pct_change']
+        scaler = RobustScaler()
+        X_scaled = scaler.fit_transform(X)
+        model = RandomForestRegressor(
+            n_estimators=200, max_depth=15, min_samples_split=5, min_samples_leaf=2,
+            max_features='sqrt', bootstrap=True, random_state=random_state, n_jobs=-1)
+        model.fit(X_scaled, y_pct)
+        with open(model_path, "wb") as f:
+            pickle.dump(model, f)
+        print(f"Saved model to {model_path}")
+
     # Predict next day
     latest_features = gold_clean[feature_cols_extended].iloc[[-1]]
     latest_price = gold_clean['Close'].iloc[-1]
@@ -134,10 +244,11 @@ def predict_next_day_gold_price_rf(gold: pd.DataFrame, model) -> float:
 
     return next_day_price
 
-
-def predict_next_day_gold_price_lstm(gold: pd.DataFrame, device, model=None) -> float:
-    
-    sequence_length = 10 ## Based on the model's training sequence length
+def predict_next_day_gold_price_lstm(gold: pd.DataFrame, model_dir, sequence_length=10, epochs=50, batch_size=16, lr=0.001):
+ 
+    os.makedirs(model_dir, exist_ok=True)
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    model_path = os.path.join(model_dir, f"lstm_{today_str}.pt")
     
     # -------------------------------
     # Feature Setup
@@ -167,6 +278,45 @@ def predict_next_day_gold_price_lstm(gold: pd.DataFrame, device, model=None) -> 
     y_seq = np.array(y_seq)
 
     # -------------------------------
+    # Step 2: Load or Train Model
+    # -------------------------------
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model = LSTMModel(input_size=X_seq.shape[2]).to(device)
+
+    if os.path.exists(model_path):
+        print(f"Loading LSTM model from {model_path}")
+        model.load_state_dict(torch.load(model_path))
+        model.eval()
+    else:
+        print("No model found for today. Retraining LSTM model...")
+
+        # Delete old models
+        for f in os.listdir(model_dir):
+            if f.startswith("lstm_") and f.endswith(".pt"):
+                os.remove(os.path.join(model_dir, f))
+
+        train_ds = GoldPriceDataset(X_seq, y_seq)
+        train_dl = DataLoader(train_ds, batch_size=batch_size, shuffle=True)
+
+        criterion = nn.MSELoss()
+        optimizer = torch.optim.Adam(model.parameters(), lr=lr)
+
+        model.train()
+        for epoch in range(epochs):
+            for xb, yb in train_dl:
+                xb, yb = xb.to(device), yb.to(device)
+                optimizer.zero_grad()
+                output = model(xb).squeeze()
+                loss = criterion(output, yb.squeeze())
+                loss.backward()
+                optimizer.step()
+            if epoch % 10 == 0 or epoch == epochs - 1:
+                print(f"Epoch {epoch} - Loss: {loss.item():.6f}")
+
+        torch.save(model.state_dict(), model_path)
+        print(f"Saved new LSTM model to: {model_path}")
+
+    # -------------------------------
     # Forecast
     # -------------------------------
     model.eval()
@@ -179,7 +329,6 @@ def predict_next_day_gold_price_lstm(gold: pd.DataFrame, device, model=None) -> 
     )[:, -1][0]
 
     return predicted_price
-
 
 def predict_next_day_gold_price_ensemble(
     ensemble_model: dict,
@@ -276,14 +425,16 @@ def predict_next_day_gold_price_ensemble(
     }
     return results
 
-def generate_news_input(device,news_data_csv,finbert_model,news_data_with_sentiment_csv):
+
+def generate_news_input(device,news_data_csv,gold_data_plain_csv,finbert_model,news_data_with_sentiment_csv):
 
     batch_predict_and_update_csv(news_data_csv,finbert_model,news_data_with_sentiment_csv)
 
     df_raw = pd.read_csv(news_data_with_sentiment_csv)
+    df_gold = pd.read_csv(gold_data_plain_csv)
     df_processed = preprocess_dataset(df_raw)
     df_processed = generate_topic_encodings(df_processed)
-    final_df = get_sentiment_combined_encodings(df_processed)
+    final_df = add_gold_price_change_with_weekend_handling(df_processed,df_gold)
     
     #Convert embeddings to required dimension.
     # encodings = torch.tensor(np.random.rand(1, 9, 512).astype(np.float32), dtype=torch.float32).to(device)

@@ -2,6 +2,7 @@ import gradio as gr
 import datetime
 from typing import Tuple, Any, Optional
 import time
+#import Final_Gold_Price_Model
 
 # Placeholder functions - replace these with your actual implementations
 def get_text(date: str) -> str:
@@ -143,7 +144,7 @@ def run_chain_handler(date: str, custom_text: str) -> Tuple[str, str, str]:
 def create_interface():
     with gr.Blocks(title="LLM Chain GUI") as demo:
         
-        gr.Markdown("# 🤖 LLM Chain Processing Interface")
+        gr.Markdown("🤖 Team 7 - Gold Price Movement Prediction")
         gr.Markdown("*Process your data with customizable inputs and real-time monitoring*")
         
         # ===== INPUT SECTION =====
