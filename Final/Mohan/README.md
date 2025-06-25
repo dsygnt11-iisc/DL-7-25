@@ -73,18 +73,7 @@ Classification Report (Validation)
 
 _
 
-css
-Copy
-Edit
-           Predicted
-          P     N     Neut
-Actual P x x x
-N x x x
-Neut x x x
-
-markdown
-Copy
-Edit
+goldBERT model is available for download and test at https://huggingface.co/mohanpanakam/goldBERT  
 
 ## 🛠️ Technologies Used
 
