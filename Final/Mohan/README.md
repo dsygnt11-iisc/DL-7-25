@@ -111,6 +111,7 @@ Class Probabilities: {'positive': '0.9990', 'neutral': '0.0006', 'negative': '0.
 
 - Python 3.11
 - Transformers (`HuggingFace`)
+- PEFT 0.11.1  
 - PyTorch
 - Scikit-learn
 - Pandas, NumPy
