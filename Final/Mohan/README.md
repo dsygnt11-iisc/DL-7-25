@@ -75,6 +75,38 @@ _
 
 goldBERT model is available for download and test at https://huggingface.co/mohanpanakam/goldBERT  
 
+## 🧪 How to Test the Sentiment Model
+
+You can use the fine-tuned `GoldBERT` model to extract **sentiment predictions** along with their **confidence scores** for financial news headlines or text.
+
+### ✅ Steps to Run Inference
+
+1. **Download the Fine-Tuned Model**  
+   Download the `GoldBERT` model from Hugging Face (link provided above in the README).
+
+2. **Update the Working Directory**  
+   Open the script located at:
+
+
+Update the working directory path in the script to point to where the model files are located.
+
+3. **Run the Script with Input News Text**  
+Use the following command:
+
+```bash
+python3.11 test_extract_sentiment.py "<your_news_text_here>"
+
+Example
+
+python3.11 test_extract_sentiment.py "Gold prices are expected to rise due to global inflation fears."  
+Text: Gold prices are expected to rise due to global inflation fears.
+Sentiment: positive
+Confidence: 0.9990
+Logits: [4.880069255828857, -2.4787590503692627, -3.1046738624572754]
+Class Probabilities: {'positive': '0.9990', 'neutral': '0.0006', 'negative': '0.0003'}
+```
+
+
 ## 🛠️ Technologies Used
 
 - Python 3.11
