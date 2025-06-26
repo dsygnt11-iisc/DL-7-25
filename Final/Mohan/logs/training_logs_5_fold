@@ -1,0 +1,678 @@
+{'loss': 0.3376, 'grad_norm': 0.05656793341040611, 'learning_rate': 2.9386165826843792e-05, 'epoch': 2.19}                    
+{'loss': 0.3878, 'grad_norm': 17.39359474182129, 'learning_rate': 2.7095739807604216e-05, 'epoch': 2.41}                      
+{'loss': 0.3946, 'grad_norm': 0.11512449383735657, 'learning_rate': 2.4805313788364637e-05, 'epoch': 2.63}                    
+{'eval_loss': 0.42561718821525574, 'eval_accuracy': 0.9036355672360928, 'eval_f1': 0.8903811148526435, 'eval_runtime': 102.0936, 'eval_samples_per_second': 22.362, 'eval_steps_per_second': 11.186, 'epoch': 2.63}                                         
+ 53%|████████████████████████████████████████████▏                                       | 6000/11415 [53:46<41:30,  2.17it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.3408, 'grad_norm': 0.27464649081230164, 'learning_rate': 2.251488776912506e-05, 'epoch': 2.85}                     
+ 60%|█████████████████████████████████████████████████▏                                | 6849/11415 [1:00:22<28:34,  2.66it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.3465, 'grad_norm': 0.06199245899915695, 'learning_rate': 2.0224461749885477e-05, 'epoch': 3.07}                    
+{'loss': 0.345, 'grad_norm': 0.10055346041917801, 'learning_rate': 1.79340357306459e-05, 'epoch': 3.29}                       
+{'eval_loss': 0.43262457847595215, 'eval_accuracy': 0.906263688129654, 'eval_f1': 0.8937902090693449, 'eval_runtime': 102.2595, 'eval_samples_per_second': 22.326, 'eval_steps_per_second': 11.168, 'epoch': 3.29}                                          
+ 66%|█████████████████████████████████████████████████████▉                            | 7500/11415 [1:07:08<31:02,  2.10it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.3216, 'grad_norm': 0.07869022339582443, 'learning_rate': 1.5643609711406325e-05, 'epoch': 3.5}                     
+{'loss': 0.3711, 'grad_norm': 0.07492046803236008, 'learning_rate': 1.3353183692166744e-05, 'epoch': 3.72}                    
+{'loss': 0.3629, 'grad_norm': 0.0403970405459404, 'learning_rate': 1.1062757672927166e-05, 'epoch': 3.94}                     
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [1:18:49<18:43,  2.15it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'eval_loss': 0.35907772183418274, 'eval_accuracy': 0.9172141918528253, 'eval_f1': 0.9089611156436147, 'eval_runtime': 102.4659, 'eval_samples_per_second': 22.281, 'eval_steps_per_second': 11.145, 'epoch': 3.94}                                         
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [1:20:31<18:43,  2.15it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 80%|█████████████████████████████████████████████████████████████████▌                | 9132/11415 [1:21:34<14:15,  2.67it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.3125, 'grad_norm': 22.31281089782715, 'learning_rate': 8.772331653687586e-06, 'epoch': 4.16}                       
+{'loss': 0.3097, 'grad_norm': 0.7415860295295715, 'learning_rate': 6.481905634448007e-06, 'epoch': 4.38}                      
+{'loss': 0.3217, 'grad_norm': 10.787507057189941, 'learning_rate': 4.191479615208429e-06, 'epoch': 4.6}                       
+{'eval_loss': 0.38611316680908203, 'eval_accuracy': 0.9154621112571178, 'eval_f1': 0.9062277457364458, 'eval_runtime': 102.1292, 'eval_samples_per_second': 22.354, 'eval_steps_per_second': 11.182, 'epoch': 4.6}                                          
+ 92%|██████████████████████████████████████████████████████████████████████████▌      | 10500/11415 [1:33:56<07:10,  2.12it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.3015, 'grad_norm': 1.8587961196899414, 'learning_rate': 1.9010535959688503e-06, 'epoch': 4.82}                     
+{'train_runtime': 6070.0064, 'train_samples_per_second': 7.52, 'train_steps_per_second': 1.881, 'train_loss': 0.42523447070996906, 'epoch': 5.0}
+100%|█████████████████████████████████████████████████████████████████████████████████| 11415/11415 [1:41:07<00:00,  1.88it/s]
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 4565/4565 [06:50<00:00, 11.13it/s]
+
+=== Train Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9283
+F1 Score: 0.9208
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9374    0.9475    0.9424      3807
+     neutral     0.8848    0.8703    0.8775      2012
+    negative     0.9437    0.9414    0.9425      3310
+
+    accuracy                         0.9283      9129
+   macro avg     0.9219    0.9197    0.9208      9129
+weighted avg     0.9281    0.9283    0.9281      9129
+
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 1142/1142 [01:42<00:00, 11.13it/s]
+
+=== Validation Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9172
+F1 Score: 0.9090
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9315    0.9286    0.9300       952
+     neutral     0.8620    0.8569    0.8594       503
+    negative     0.9341    0.9408    0.9374       828
+
+    accuracy                         0.9172      2283
+   macro avg     0.9092    0.9088    0.9090      2283
+weighted avg     0.9171    0.9172    0.9172      2283
+
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+New best model found for fold 1 with F1: 0.9090
+Model saved to /Users/mohanpanakam/Documents/Finetuning/finetuning/best_model_fold_0
+
+=== Preparing Fold 2/5 ===
+Train label counts for fold 2: [3807 2012 3310]
+Validation label counts for fold 2: [952 503 828]
+Dataset keys: ['text', 'label']
+Number of examples: 9129
+Sample text: april gold down 20 cents to settle at $1,116.10/oz
+Sample label: 2
+Map:   0%|                                                                                    | 0/9129 [00:00<?, ? examples/s]Sample labels: [2, 2, 0, 1, 2]
+Mapped labels sample: [2, 2, 0, 1, 2]
+Map:  11%|███████▊                                                               | 1000/9129 [00:00<00:01, 7446.14 examples/s]Sample labels: [0, 2, 0, 0, 2]
+Mapped labels sample: [0, 2, 0, 0, 2]
+Map:  22%|███████████████▌                                                       | 2000/9129 [00:00<00:00, 8274.49 examples/s]Sample labels: [1, 2, 0, 2, 1]
+Mapped labels sample: [1, 2, 0, 2, 1]
+Map:  33%|███████████████████████▎                                               | 3000/9129 [00:00<00:00, 8385.99 examples/s]Sample labels: [2, 0, 1, 1, 0]
+Mapped labels sample: [2, 0, 1, 1, 0]
+Map:  44%|███████████████████████████████                                        | 4000/9129 [00:00<00:00, 8061.90 examples/s]Sample labels: [0, 2, 1, 0, 0]
+Mapped labels sample: [0, 2, 1, 0, 0]
+Map:  55%|██████████████████████████████████████▉                                | 5000/9129 [00:00<00:00, 8320.94 examples/s]Sample labels: [0, 2, 0, 0, 2]
+Mapped labels sample: [0, 2, 0, 0, 2]
+Map:  66%|██████████████████████████████████████████████▋                        | 6000/9129 [00:00<00:00, 8416.56 examples/s]Sample labels: [2, 1, 2, 2, 2]
+Mapped labels sample: [2, 1, 2, 2, 2]
+Map:  77%|██████████████████████████████████████████████████████▍                | 7000/9129 [00:01<00:00, 5372.82 examples/s]Sample labels: [2, 0, 2, 0, 2]
+Mapped labels sample: [2, 0, 2, 0, 2]
+Map:  88%|██████████████████████████████████████████████████████████████▏        | 8000/9129 [00:01<00:00, 6130.54 examples/s]Sample labels: [2, 2, 0, 2, 2]
+Mapped labels sample: [2, 2, 0, 2, 2]
+Map:  99%|█████████████████████████████████████████████████████████████████████▉ | 9000/9129 [00:01<00:00, 6818.61 examples/s]Sample labels: [0, 0, 2, 0, 0]
+Mapped labels sample: [0, 0, 2, 0, 0]
+Map: 100%|███████████████████████████████████████████████████████████████████████| 9129/9129 [00:01<00:00, 7023.56 examples/s]
+Map:   0%|                                                                                    | 0/2283 [00:00<?, ? examples/s]Sample labels: [0, 1, 0, 0, 2]
+Mapped labels sample: [0, 1, 0, 0, 2]
+Map:  44%|███████████████████████████████                                        | 1000/2283 [00:00<00:00, 8802.67 examples/s]Sample labels: [1, 1, 1, 2, 1]
+Mapped labels sample: [1, 1, 1, 2, 1]
+Map:  88%|██████████████████████████████████████████████████████████████▏        | 2000/2283 [00:00<00:00, 8805.77 examples/s]Sample labels: [2, 0, 1, 2, 0]
+Mapped labels sample: [2, 0, 1, 2, 0]
+Map: 100%|███████████████████████████████████████████████████████████████████████| 2283/2283 [00:00<00:00, 8230.49 examples/s]
+Tokenized dataset columns: ['input_ids', 'token_type_ids', 'attention_mask', 'labels']
+Sample tokenized features: dict_keys(['input_ids', 'attention_mask', 'labels'])
+Label counts in fold 1: [3807 2012 3310]
+Adjusted class weights for fold 1: [0.79931705 1.51242545 0.91933535]
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/transformers/training_args.py:1474: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+
+=== Training Fold 2/5 ===
+  0%|                                                                                               | 0/11415 [00:00<?, ?it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.329, 'grad_norm': 0.047304823994636536, 'learning_rate': 5e-05, 'epoch': 0.22}                                     
+{'loss': 0.3769, 'grad_norm': 4.951698303222656, 'learning_rate': 4.770957398076042e-05, 'epoch': 0.44}                       
+{'loss': 0.312, 'grad_norm': 0.17648032307624817, 'learning_rate': 4.541914796152085e-05, 'epoch': 0.66}                      
+{'eval_loss': 0.3640299141407013, 'eval_accuracy': 0.9185282522996058, 'eval_f1': 0.908381560530347, 'eval_runtime': 103.8248, 'eval_samples_per_second': 21.989, 'eval_steps_per_second': 10.999, 'epoch': 0.66}                                           
+ 13%|██████████▊                                                                       | 1500/11415 [13:26<1:17:19,  2.14it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.3635, 'grad_norm': 0.04243055358529091, 'learning_rate': 4.3128721942281264e-05, 'epoch': 0.88}                    
+ 20%|████████████████▊                                                                   | 2283/11415 [19:34<57:50,  2.63it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.266, 'grad_norm': 0.06157088279724121, 'learning_rate': 4.0838295923041684e-05, 'epoch': 1.1}                      
+{'loss': 0.3364, 'grad_norm': 29.848718643188477, 'learning_rate': 3.854786990380211e-05, 'epoch': 1.31}                      
+{'eval_loss': 0.34043505787849426, 'eval_accuracy': 0.9229084537888743, 'eval_f1': 0.912581380980961, 'eval_runtime': 103.6215, 'eval_samples_per_second': 22.032, 'eval_steps_per_second': 11.021, 'epoch': 1.31}                                          
+ 26%|█████████████████████▌                                                            | 3000/11415 [26:54<1:06:41,  2.10it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.3391, 'grad_norm': 0.9657189249992371, 'learning_rate': 3.625744388456253e-05, 'epoch': 1.53}                      
+{'loss': 0.3439, 'grad_norm': 0.3486904203891754, 'learning_rate': 3.396701786532295e-05, 'epoch': 1.75}                      
+{'loss': 0.3197, 'grad_norm': 1.1247799396514893, 'learning_rate': 3.167659184608337e-05, 'epoch': 1.97}                      
+ 39%|█████████████████████████████████                                                   | 4500/11415 [38:39<54:41,  2.11it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'eval_loss': 0.28684985637664795, 'eval_accuracy': 0.9329829172141918, 'eval_f1': 0.9250563771306246, 'eval_runtime': 102.7623, 'eval_samples_per_second': 22.216, 'eval_steps_per_second': 11.113, 'epoch': 1.97}                                         
+ 39%|█████████████████████████████████                                                   | 4500/11415 [40:22<54:41,  2.11it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 40%|█████████████████████████████████▌                                                  | 4566/11415 [40:53<43:21,  2.63it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2991, 'grad_norm': 0.03625483810901642, 'learning_rate': 2.9386165826843792e-05, 'epoch': 2.19}                    
+{'loss': 0.297, 'grad_norm': 29.778301239013672, 'learning_rate': 2.7095739807604216e-05, 'epoch': 2.41}                      
+{'loss': 0.2923, 'grad_norm': 1.0898834466934204, 'learning_rate': 2.4805313788364637e-05, 'epoch': 2.63}                     
+{'eval_loss': 0.3676425516605377, 'eval_accuracy': 0.9215943933420937, 'eval_f1': 0.9110890789451909, 'eval_runtime': 102.825, 'eval_samples_per_second': 22.203, 'eval_steps_per_second': 11.106, 'epoch': 2.63}                                           
+ 53%|████████████████████████████████████████████▏                                       | 6000/11415 [53:46<42:41,  2.11it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.3146, 'grad_norm': 0.08211128413677216, 'learning_rate': 2.251488776912506e-05, 'epoch': 2.85}                     
+ 60%|█████████████████████████████████████████████████▏                                | 6849/11415 [1:00:24<28:47,  2.64it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.3023, 'grad_norm': 9.635705947875977, 'learning_rate': 2.0224461749885477e-05, 'epoch': 3.07}                      
+{'loss': 0.2938, 'grad_norm': 0.07167563587427139, 'learning_rate': 1.79340357306459e-05, 'epoch': 3.29}                      
+{'eval_loss': 0.29338470101356506, 'eval_accuracy': 0.9303547963206308, 'eval_f1': 0.9229515442455013, 'eval_runtime': 102.8496, 'eval_samples_per_second': 22.197, 'eval_steps_per_second': 11.104, 'epoch': 3.29}                                         
+ 66%|█████████████████████████████████████████████████████▉                            | 7500/11415 [1:07:14<31:44,  2.06it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.3076, 'grad_norm': 0.03295736387372017, 'learning_rate': 1.5643609711406325e-05, 'epoch': 3.5}                     
+{'loss': 0.318, 'grad_norm': 0.03914615139365196, 'learning_rate': 1.3353183692166744e-05, 'epoch': 3.72}                     
+{'loss': 0.2605, 'grad_norm': 0.04270507022738457, 'learning_rate': 1.1062757672927166e-05, 'epoch': 3.94}                    
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [1:18:58<18:53,  2.13it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'eval_loss': 0.3151981234550476, 'eval_accuracy': 0.9259745948313622, 'eval_f1': 0.916852734147816, 'eval_runtime': 102.6677, 'eval_samples_per_second': 22.237, 'eval_steps_per_second': 11.123, 'epoch': 3.94}                                           
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [1:20:40<18:53,  2.13it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 80%|█████████████████████████████████████████████████████████████████▌                | 9132/11415 [1:21:43<14:45,  2.58it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2525, 'grad_norm': 9.39700984954834, 'learning_rate': 8.772331653687586e-06, 'epoch': 4.16}                        
+{'loss': 0.2423, 'grad_norm': 25.415761947631836, 'learning_rate': 6.481905634448007e-06, 'epoch': 4.38}                      
+{'loss': 0.2525, 'grad_norm': 0.04916847497224808, 'learning_rate': 4.191479615208429e-06, 'epoch': 4.6}                      
+{'eval_loss': 0.32539495825767517, 'eval_accuracy': 0.926412614980289, 'eval_f1': 0.9174930161653844, 'eval_runtime': 102.5327, 'eval_samples_per_second': 22.266, 'eval_steps_per_second': 11.138, 'epoch': 4.6}                                           
+ 92%|██████████████████████████████████████████████████████████████████████████▌      | 10500/11415 [1:34:06<07:09,  2.13it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2911, 'grad_norm': 1.1414027214050293, 'learning_rate': 1.9010535959688503e-06, 'epoch': 4.82}                     
+{'train_runtime': 6075.6152, 'train_samples_per_second': 7.513, 'train_steps_per_second': 1.879, 'train_loss': 0.30569601773275806, 'epoch': 5.0}
+100%|█████████████████████████████████████████████████████████████████████████████████| 11415/11415 [1:41:15<00:00,  1.88it/s]
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 4565/4565 [06:48<00:00, 11.17it/s]
+
+=== Train Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9364
+F1 Score: 0.9306
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9573    0.9362    0.9466      3807
+     neutral     0.8708    0.9180    0.8938      2012
+    negative     0.9549    0.9477    0.9513      3310
+
+    accuracy                         0.9364      9129
+   macro avg     0.9277    0.9340    0.9306      9129
+weighted avg     0.9374    0.9364    0.9367      9129
+
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 1142/1142 [01:43<00:00, 11.08it/s]
+
+=== Validation Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9330
+F1 Score: 0.9251
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9574    0.9454    0.9514       952
+     neutral     0.8604    0.8946    0.8772       503
+    negative     0.9512    0.9420    0.9466       828
+
+    accuracy                         0.9330      2283
+   macro avg     0.9230    0.9273    0.9251      2283
+weighted avg     0.9338    0.9330    0.9333      2283
+
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+New best model found for fold 2 with F1: 0.9251
+Model saved to /Users/mohanpanakam/Documents/Finetuning/finetuning/best_model_fold_1
+
+=== Preparing Fold 3/5 ===
+Train label counts for fold 3: [3808 2012 3310]
+Validation label counts for fold 3: [951 503 828]
+Dataset keys: ['text', 'label']
+Number of examples: 9130
+Sample text: april gold down 20 cents to settle at $1,116.10/oz
+Sample label: 2
+Map:   0%|                                                                                    | 0/9130 [00:00<?, ? examples/s]Sample labels: [2, 2, 0, 1, 2]
+Mapped labels sample: [2, 2, 0, 1, 2]
+Map:  11%|███████▊                                                               | 1000/9130 [00:00<00:01, 7351.06 examples/s]Sample labels: [2, 0, 2, 2, 0]
+Mapped labels sample: [2, 0, 2, 2, 0]
+Map:  22%|███████████████▌                                                       | 2000/9130 [00:00<00:00, 7945.43 examples/s]Sample labels: [0, 2, 2, 1, 0]
+Mapped labels sample: [0, 2, 2, 1, 0]
+Map:  33%|███████████████████████▎                                               | 3000/9130 [00:00<00:00, 8416.33 examples/s]Sample labels: [1, 1, 1, 2, 1]
+Mapped labels sample: [1, 1, 1, 2, 1]
+Map:  44%|███████████████████████████████                                        | 4000/9130 [00:00<00:00, 8502.55 examples/s]Sample labels: [1, 0, 1, 0, 0]
+Mapped labels sample: [1, 0, 1, 0, 0]
+Map:  55%|██████████████████████████████████████▉                                | 5000/9130 [00:00<00:00, 8745.14 examples/s]Sample labels: [2, 2, 2, 0, 2]
+Mapped labels sample: [2, 2, 2, 0, 2]
+Map:  66%|██████████████████████████████████████████████▋                        | 6000/9130 [00:00<00:00, 8900.76 examples/s]Sample labels: [0, 2, 0, 2, 2]
+Mapped labels sample: [0, 2, 0, 2, 2]
+Map:  77%|██████████████████████████████████████████████████████▍                | 7000/9130 [00:00<00:00, 8910.07 examples/s]Sample labels: [0, 2, 1, 2, 0]
+Mapped labels sample: [0, 2, 1, 2, 0]
+Map:  88%|██████████████████████████████████████████████████████████████▏        | 8000/9130 [00:00<00:00, 9008.17 examples/s]Sample labels: [1, 2, 2, 0, 1]
+Mapped labels sample: [1, 2, 2, 0, 1]
+Map:  99%|█████████████████████████████████████████████████████████████████████▉ | 9000/9130 [00:01<00:00, 9053.07 examples/s]Sample labels: [2, 2, 1, 0, 1]
+Mapped labels sample: [2, 2, 1, 0, 1]
+Map: 100%|███████████████████████████████████████████████████████████████████████| 9130/9130 [00:01<00:00, 8673.28 examples/s]
+Map:   0%|                                                                                    | 0/2282 [00:00<?, ? examples/s]Sample labels: [0, 1, 0, 0, 0]
+Mapped labels sample: [0, 1, 0, 0, 0]
+Map:  44%|███████████████████████████████                                        | 1000/2282 [00:00<00:00, 9270.14 examples/s]Sample labels: [0, 2, 2, 2, 1]
+Mapped labels sample: [0, 2, 2, 2, 1]
+Map:  88%|██████████████████████████████████████████████████████████████▏        | 2000/2282 [00:00<00:00, 9049.08 examples/s]Sample labels: [1, 2, 1, 1, 2]
+Mapped labels sample: [1, 2, 1, 1, 2]
+Map: 100%|███████████████████████████████████████████████████████████████████████| 2282/2282 [00:00<00:00, 8904.08 examples/s]
+Tokenized dataset columns: ['input_ids', 'token_type_ids', 'attention_mask', 'labels']
+Sample tokenized features: dict_keys(['input_ids', 'attention_mask', 'labels'])
+Label counts in fold 2: [3808 2012 3310]
+Adjusted class weights for fold 2: [0.79919468 1.51259112 0.91943605]
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/transformers/training_args.py:1474: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+
+=== Training Fold 3/5 ===
+  0%|                                                                                               | 0/11415 [00:00<?, ?it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.3033, 'grad_norm': 28.861886978149414, 'learning_rate': 5e-05, 'epoch': 0.22}                                      
+{'loss': 0.2837, 'grad_norm': 13.566962242126465, 'learning_rate': 4.770957398076042e-05, 'epoch': 0.44}                      
+{'loss': 0.3106, 'grad_norm': 2.102185010910034, 'learning_rate': 4.541914796152085e-05, 'epoch': 0.66}                       
+{'eval_loss': 0.363211989402771, 'eval_accuracy': 0.9281332164767747, 'eval_f1': 0.9193597408990768, 'eval_runtime': 101.9978, 'eval_samples_per_second': 22.373, 'eval_steps_per_second': 11.187, 'epoch': 0.66}                                           
+ 13%|██████████▊                                                                       | 1500/11415 [13:23<1:17:09,  2.14it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.3257, 'grad_norm': 0.042563773691654205, 'learning_rate': 4.3128721942281264e-05, 'epoch': 0.88}                   
+ 20%|████████████████▍                                                                 | 2283/11415 [19:30<1:10:13,  2.17it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.297, 'grad_norm': 0.028411895036697388, 'learning_rate': 4.0838295923041684e-05, 'epoch': 1.1}                     
+{'loss': 0.2828, 'grad_norm': 18.41596031188965, 'learning_rate': 3.854786990380211e-05, 'epoch': 1.31}                       
+{'eval_loss': 0.3640563189983368, 'eval_accuracy': 0.9268185801928133, 'eval_f1': 0.9174182658024818, 'eval_runtime': 102.2488, 'eval_samples_per_second': 22.318, 'eval_steps_per_second': 11.159, 'epoch': 1.31}                                          
+ 26%|█████████████████████▌                                                            | 3000/11415 [26:50<1:05:50,  2.13it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.3011, 'grad_norm': 1.060749888420105, 'learning_rate': 3.625744388456253e-05, 'epoch': 1.53}                       
+{'loss': 0.3198, 'grad_norm': 0.2834080457687378, 'learning_rate': 3.396701786532295e-05, 'epoch': 1.75}                      
+{'loss': 0.2854, 'grad_norm': 11.630134582519531, 'learning_rate': 3.167659184608337e-05, 'epoch': 1.97}                      
+ 39%|█████████████████████████████████                                                   | 4500/11415 [38:35<52:49,  2.18it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'eval_loss': 0.3497658967971802, 'eval_accuracy': 0.9290096406660824, 'eval_f1': 0.920359538492877, 'eval_runtime': 101.9539, 'eval_samples_per_second': 22.383, 'eval_steps_per_second': 11.191, 'epoch': 1.97}                                           
+ 39%|█████████████████████████████████                                                   | 4500/11415 [40:17<52:49,  2.18it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 40%|█████████████████████████████████▌                                                  | 4566/11415 [40:49<48:06,  2.37it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2438, 'grad_norm': 0.07800034433603287, 'learning_rate': 2.9386165826843792e-05, 'epoch': 2.19}                    
+{'loss': 0.3, 'grad_norm': 18.32819938659668, 'learning_rate': 2.7095739807604216e-05, 'epoch': 2.41}                         
+{'loss': 0.2704, 'grad_norm': 32.95485305786133, 'learning_rate': 2.4805313788364637e-05, 'epoch': 2.63}                      
+{'eval_loss': 0.351081520318985, 'eval_accuracy': 0.9303242769500438, 'eval_f1': 0.9221759545661984, 'eval_runtime': 101.3742, 'eval_samples_per_second': 22.511, 'eval_steps_per_second': 11.255, 'epoch': 2.63}                                           
+ 53%|████████████████████████████████████████████▏                                       | 6000/11415 [53:38<41:40,  2.17it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 55%|█████████████████████████████████████████████▉                                      | 6236/11415 [55:30<40:16,  2.14it/s]wandb: WARNING Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+{'loss': 0.2906, 'grad_norm': 0.22443346679210663, 'learning_rate': 2.251488776912506e-05, 'epoch': 2.85}                     
+ 60%|█████████████████████████████████████████████████▏                                | 6849/11415 [1:00:16<30:50,  2.47it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2556, 'grad_norm': 0.0590527318418026, 'learning_rate': 2.0224461749885477e-05, 'epoch': 3.07}                     
+{'loss': 0.2311, 'grad_norm': 4.378479480743408, 'learning_rate': 1.79340357306459e-05, 'epoch': 3.29}                        
+{'eval_loss': 0.3763200342655182, 'eval_accuracy': 0.9294478527607362, 'eval_f1': 0.9205165462748638, 'eval_runtime': 101.6331, 'eval_samples_per_second': 22.453, 'eval_steps_per_second': 11.227, 'epoch': 3.29}                                          
+ 66%|█████████████████████████████████████████████████████▉                            | 7500/11415 [1:07:02<29:59,  2.18it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2885, 'grad_norm': 26.732624053955078, 'learning_rate': 1.5643609711406325e-05, 'epoch': 3.5}                      
+{'loss': 0.249, 'grad_norm': 0.1784684956073761, 'learning_rate': 1.3353183692166744e-05, 'epoch': 3.72}                      
+{'loss': 0.2576, 'grad_norm': 7.810946464538574, 'learning_rate': 1.1062757672927166e-05, 'epoch': 3.94}                      
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [1:18:43<18:43,  2.15it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'eval_loss': 0.39006301760673523, 'eval_accuracy': 0.9276950043821209, 'eval_f1': 0.9170501365144754, 'eval_runtime': 101.7564, 'eval_samples_per_second': 22.426, 'eval_steps_per_second': 11.213, 'epoch': 3.94}                                         
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [1:20:24<18:43,  2.15it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 80%|█████████████████████████████████████████████████████████████████▌                | 9132/11415 [1:21:27<15:40,  2.43it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2605, 'grad_norm': 18.372879028320312, 'learning_rate': 8.772331653687586e-06, 'epoch': 4.16}                      
+{'loss': 0.2212, 'grad_norm': 0.058963704854249954, 'learning_rate': 6.481905634448007e-06, 'epoch': 4.38}                    
+{'loss': 0.2831, 'grad_norm': 13.333359718322754, 'learning_rate': 4.191479615208429e-06, 'epoch': 4.6}                       
+{'eval_loss': 0.366787850856781, 'eval_accuracy': 0.932077125328659, 'eval_f1': 0.9237304759542888, 'eval_runtime': 103.9804, 'eval_samples_per_second': 21.946, 'eval_steps_per_second': 10.973, 'epoch': 4.6}                                             
+ 92%|██████████████████████████████████████████████████████████████████████████▌      | 10500/11415 [1:33:51<07:07,  2.14it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2262, 'grad_norm': 0.2809506058692932, 'learning_rate': 1.9010535959688503e-06, 'epoch': 4.82}                     
+{'train_runtime': 48821.2731, 'train_samples_per_second': 0.935, 'train_steps_per_second': 0.234, 'train_loss': 0.27649628434116463, 'epoch': 5.0}
+100%|████████████████████████████████████████████████████████████████████████████████| 11415/11415 [13:33:41<00:00,  4.28s/it]
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 4565/4565 [06:51<00:00, 11.10it/s]
+
+=== Train Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9533
+F1 Score: 0.9488
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9597    0.9630    0.9613      3808
+     neutral     0.9181    0.9245    0.9212      2012
+    negative     0.9677    0.9598    0.9637      3310
+
+    accuracy                         0.9533      9130
+   macro avg     0.9485    0.9491    0.9488      9130
+weighted avg     0.9534    0.9533    0.9534      9130
+
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 1141/1141 [01:42<00:00, 11.18it/s]
+
+=== Validation Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9321
+F1 Score: 0.9237
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9431    0.9579    0.9504       951
+     neutral     0.8813    0.8708    0.8760       503
+    negative     0.9499    0.9396    0.9447       828
+
+    accuracy                         0.9321      2282
+   macro avg     0.9248    0.9228    0.9237      2282
+weighted avg     0.9319    0.9321    0.9320      2282
+
+
+=== Preparing Fold 4/5 ===
+Train label counts for fold 4: [3807 2012 3311]
+Validation label counts for fold 4: [952 503 827]
+Dataset keys: ['text', 'label']
+Number of examples: 9130
+Sample text: april gold down 20 cents to settle at $1,116.10/oz
+Sample label: 2
+Map:   0%|                                                                                    | 0/9130 [00:00<?, ? examples/s]Sample labels: [2, 0, 1, 0, 2]
+Mapped labels sample: [2, 0, 1, 0, 2]
+Map:  11%|███████▊                                                               | 1000/9130 [00:00<00:01, 4984.25 examples/s]Sample labels: [1, 2, 2, 0, 2]
+Mapped labels sample: [1, 2, 2, 0, 2]
+Map:  22%|███████████████▌                                                       | 2000/9130 [00:00<00:01, 5116.22 examples/s]Sample labels: [0, 2, 2, 2, 2]
+Mapped labels sample: [0, 2, 2, 2, 2]
+Map:  33%|███████████████████████▎                                               | 3000/9130 [00:00<00:00, 6277.39 examples/s]Sample labels: [2, 2, 1, 1, 1]
+Mapped labels sample: [2, 2, 1, 1, 1]
+Map:  44%|███████████████████████████████                                        | 4000/9130 [00:00<00:00, 6811.93 examples/s]Sample labels: [0, 0, 0, 1, 0]
+Mapped labels sample: [0, 0, 0, 1, 0]
+Map:  55%|██████████████████████████████████████▉                                | 5000/9130 [00:00<00:00, 7350.59 examples/s]Sample labels: [0, 2, 1, 2, 2]
+Mapped labels sample: [0, 2, 1, 2, 2]
+Map:  66%|██████████████████████████████████████████████▋                        | 6000/9130 [00:00<00:00, 7861.14 examples/s]Sample labels: [0, 2, 2, 0, 2]
+Mapped labels sample: [0, 2, 2, 0, 2]
+Map:  77%|██████████████████████████████████████████████████████▍                | 7000/9130 [00:00<00:00, 8256.89 examples/s]Sample labels: [0, 0, 0, 2, 0]
+Mapped labels sample: [0, 0, 0, 2, 0]
+Map:  88%|██████████████████████████████████████████████████████████████▏        | 8000/9130 [00:01<00:00, 8515.91 examples/s]Sample labels: [1, 0, 1, 0, 1]
+Mapped labels sample: [1, 0, 1, 0, 1]
+Map:  99%|█████████████████████████████████████████████████████████████████████▉ | 9000/9130 [00:01<00:00, 8830.21 examples/s]Sample labels: [0, 0, 0, 2, 2]
+Mapped labels sample: [0, 0, 0, 2, 2]
+Map: 100%|███████████████████████████████████████████████████████████████████████| 9130/9130 [00:01<00:00, 7498.55 examples/s]
+Map:   0%|                                                                                    | 0/2282 [00:00<?, ? examples/s]Sample labels: [2, 2, 2, 0, 0]
+Mapped labels sample: [2, 2, 2, 0, 0]
+Map:  44%|███████████████████████████████                                        | 1000/2282 [00:00<00:00, 9224.66 examples/s]Sample labels: [1, 0, 2, 2, 0]
+Mapped labels sample: [1, 0, 2, 2, 0]
+Map:  88%|██████████████████████████████████████████████████████████████▏        | 2000/2282 [00:00<00:00, 9168.19 examples/s]Sample labels: [0, 2, 2, 0, 2]
+Mapped labels sample: [0, 2, 2, 0, 2]
+Map: 100%|███████████████████████████████████████████████████████████████████████| 2282/2282 [00:00<00:00, 8209.25 examples/s]
+Tokenized dataset columns: ['input_ids', 'token_type_ids', 'attention_mask', 'labels']
+Sample tokenized features: dict_keys(['input_ids', 'attention_mask', 'labels'])
+Label counts in fold 3: [3807 2012 3311]
+Adjusted class weights for fold 3: [0.79940461 1.51259112 0.91915836]
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/transformers/training_args.py:1474: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+
+=== Training Fold 4/5 ===
+  0%|                                                                                               | 0/11415 [00:00<?, ?it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2601, 'grad_norm': 2.6466798782348633, 'learning_rate': 5e-05, 'epoch': 0.22}                                      
+{'loss': 0.2521, 'grad_norm': 10.792981147766113, 'learning_rate': 4.770957398076042e-05, 'epoch': 0.44}                      
+{'loss': 0.298, 'grad_norm': 28.63174819946289, 'learning_rate': 4.541914796152085e-05, 'epoch': 0.66}                        
+{'eval_loss': 0.2458975911140442, 'eval_accuracy': 0.9430324276950044, 'eval_f1': 0.9381556182632454, 'eval_runtime': 101.9904, 'eval_samples_per_second': 22.375, 'eval_steps_per_second': 11.187, 'epoch': 0.66}                                          
+ 13%|██████████▊                                                                       | 1500/11415 [48:03<1:18:17,  2.11it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2714, 'grad_norm': 0.02249036729335785, 'learning_rate': 4.3128721942281264e-05, 'epoch': 0.88}                    
+ 20%|████████████████▍                                                                 | 2283/11415 [54:15<1:02:55,  2.42it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2635, 'grad_norm': 0.13331282138824463, 'learning_rate': 4.0838295923041684e-05, 'epoch': 1.1}                     
+{'loss': 0.2427, 'grad_norm': 0.11556009203195572, 'learning_rate': 3.854786990380211e-05, 'epoch': 1.31}                     
+{'eval_loss': 0.27102214097976685, 'eval_accuracy': 0.9443470639789658, 'eval_f1': 0.9392792759031351, 'eval_runtime': 102.2007, 'eval_samples_per_second': 22.329, 'eval_steps_per_second': 11.164, 'epoch': 1.31}                                         
+ 26%|█████████████████████                                                           | 3000/11415 [1:01:33<1:07:57,  2.06it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2357, 'grad_norm': 0.05645348131656647, 'learning_rate': 3.625744388456253e-05, 'epoch': 1.53}                     
+{'loss': 0.309, 'grad_norm': 0.06102350726723671, 'learning_rate': 3.396701786532295e-05, 'epoch': 1.75}                      
+{'loss': 0.2982, 'grad_norm': 28.635379791259766, 'learning_rate': 3.167659184608337e-05, 'epoch': 1.97}                      
+ 39%|████████████████████████████████▎                                                 | 4500/11415 [1:13:18<53:41,  2.15it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'eval_loss': 0.27299657464027405, 'eval_accuracy': 0.9404031551270815, 'eval_f1': 0.9359611424478467, 'eval_runtime': 102.225, 'eval_samples_per_second': 22.323, 'eval_steps_per_second': 11.162, 'epoch': 1.97}                                          
+ 39%|████████████████████████████████▎                                                 | 4500/11415 [1:15:00<53:41,  2.15it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 40%|████████████████████████████████▊                                                 | 4566/11415 [1:15:32<47:12,  2.42it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2311, 'grad_norm': 38.3123664855957, 'learning_rate': 2.9386165826843792e-05, 'epoch': 2.19}                       
+{'loss': 0.2195, 'grad_norm': 0.04556256905198097, 'learning_rate': 2.7095739807604216e-05, 'epoch': 2.41}                    
+{'loss': 0.3176, 'grad_norm': 0.04261777177453041, 'learning_rate': 2.4805313788364637e-05, 'epoch': 2.63}                    
+{'eval_loss': 0.25474512577056885, 'eval_accuracy': 0.941717791411043, 'eval_f1': 0.9370867470302565, 'eval_runtime': 101.668, 'eval_samples_per_second': 22.446, 'eval_steps_per_second': 11.223, 'epoch': 2.63}                                           
+ 53%|███████████████████████████████████████████                                       | 6000/11415 [1:28:27<42:31,  2.12it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2601, 'grad_norm': 0.040823422372341156, 'learning_rate': 2.251488776912506e-05, 'epoch': 2.85}                    
+ 60%|█████████████████████████████████████████████████▏                                | 6849/11415 [1:35:06<32:07,  2.37it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2179, 'grad_norm': 13.288301467895508, 'learning_rate': 2.0224461749885477e-05, 'epoch': 3.07}                     
+{'loss': 0.2587, 'grad_norm': 2.9888973236083984, 'learning_rate': 1.79340357306459e-05, 'epoch': 3.29}                       
+{'eval_loss': 0.26648226380348206, 'eval_accuracy': 0.9452234881682734, 'eval_f1': 0.9410579240619645, 'eval_runtime': 101.9879, 'eval_samples_per_second': 22.375, 'eval_steps_per_second': 11.188, 'epoch': 3.29}                                         
+ 66%|█████████████████████████████████████████████████████▉                            | 7500/11415 [1:41:55<30:36,  2.13it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2141, 'grad_norm': 0.033520251512527466, 'learning_rate': 1.5643609711406325e-05, 'epoch': 3.5}                    
+{'loss': 0.2387, 'grad_norm': 0.023579690605401993, 'learning_rate': 1.3353183692166744e-05, 'epoch': 3.72}                   
+{'loss': 0.2289, 'grad_norm': 0.1204458624124527, 'learning_rate': 1.1062757672927166e-05, 'epoch': 3.94}                     
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [1:53:52<19:38,  2.05it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'eval_loss': 0.28005144000053406, 'eval_accuracy': 0.9434706397896582, 'eval_f1': 0.9384240570832109, 'eval_runtime': 105.99, 'eval_samples_per_second': 21.53, 'eval_steps_per_second': 10.765, 'epoch': 3.94}                                            
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [1:55:38<19:38,  2.05it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 80%|█████████████████████████████████████████████████████████████████▌                | 9132/11415 [1:56:44<16:41,  2.28it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.248, 'grad_norm': 0.1652555614709854, 'learning_rate': 8.772331653687586e-06, 'epoch': 4.16}                       
+{'loss': 0.234, 'grad_norm': 0.015801958739757538, 'learning_rate': 6.481905634448007e-06, 'epoch': 4.38}                     
+{'loss': 0.2417, 'grad_norm': 10.650940895080566, 'learning_rate': 4.191479615208429e-06, 'epoch': 4.6}                       
+{'eval_loss': 0.28342506289482117, 'eval_accuracy': 0.9425942156003506, 'eval_f1': 0.9380532765124211, 'eval_runtime': 102.1116, 'eval_samples_per_second': 22.348, 'eval_steps_per_second': 11.174, 'epoch': 4.6}                                          
+ 92%|██████████████████████████████████████████████████████████████████████████▌      | 10500/11415 [2:09:34<07:09,  2.13it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2035, 'grad_norm': 0.030802801251411438, 'learning_rate': 1.9010535959688503e-06, 'epoch': 4.82}                   
+{'train_runtime': 12079.0256, 'train_samples_per_second': 3.779, 'train_steps_per_second': 0.945, 'train_loss': 0.24898699887008768, 'epoch': 5.0}
+100%|█████████████████████████████████████████████████████████████████████████████████| 11415/11415 [3:21:19<00:00,  1.06s/it]
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 4565/4565 [22:48<00:00,  3.34it/s]
+
+=== Train Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9561
+F1 Score: 0.9513
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9629    0.9680    0.9654      3807
+     neutral     0.9260    0.9200    0.9230      2012
+    negative     0.9664    0.9644    0.9654      3311
+
+    accuracy                         0.9561      9130
+   macro avg     0.9518    0.9508    0.9513      9130
+weighted avg     0.9560    0.9561    0.9560      9130
+
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 1141/1141 [01:42<00:00, 11.15it/s]
+
+=== Validation Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9452
+F1 Score: 0.9411
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9508    0.9548    0.9528       952
+     neutral     0.9049    0.9264    0.9155       503
+    negative     0.9642    0.9456    0.9548       827
+
+    accuracy                         0.9452      2282
+   macro avg     0.9400    0.9423    0.9411      2282
+weighted avg     0.9456    0.9452    0.9453      2282
+
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+New best model found for fold 4 with F1: 0.9411
+Model saved to /Users/mohanpanakam/Documents/Finetuning/finetuning/best_model_fold_3
+
+=== Preparing Fold 5/5 ===
+Train label counts for fold 5: [3807 2012 3311]
+Validation label counts for fold 5: [952 503 827]
+Dataset keys: ['text', 'label']
+Number of examples: 9130
+Sample text: gold suffers third straight daily decline
+Sample label: 2
+Map:   0%|                                                                                    | 0/9130 [00:00<?, ? examples/s]Sample labels: [2, 2, 0, 2, 1]
+Mapped labels sample: [2, 2, 0, 2, 1]
+Map:  11%|███████▊                                                               | 1000/9130 [00:00<00:01, 5857.99 examples/s]Sample labels: [0, 2, 2, 2, 2]
+Mapped labels sample: [0, 2, 2, 2, 2]
+Map:  22%|███████████████▌                                                       | 2000/9130 [00:00<00:01, 6395.88 examples/s]Sample labels: [0, 2, 0, 1, 0]
+Mapped labels sample: [0, 2, 0, 1, 0]
+Map:  33%|███████████████████████▎                                               | 3000/9130 [00:00<00:00, 6845.66 examples/s]Sample labels: [2, 2, 1, 1, 2]
+Mapped labels sample: [2, 2, 1, 1, 2]
+Map:  44%|███████████████████████████████                                        | 4000/9130 [00:00<00:00, 6620.69 examples/s]Sample labels: [0, 1, 0, 0, 0]
+Mapped labels sample: [0, 1, 0, 0, 0]
+Map:  55%|██████████████████████████████████████▉                                | 5000/9130 [00:00<00:00, 7347.91 examples/s]Sample labels: [1, 1, 0, 2, 0]
+Mapped labels sample: [1, 1, 0, 2, 0]
+Map:  66%|██████████████████████████████████████████████▋                        | 6000/9130 [00:00<00:00, 7461.30 examples/s]Sample labels: [2, 2, 0, 0, 0]
+Mapped labels sample: [2, 2, 0, 0, 0]
+Map:  77%|██████████████████████████████████████████████████████▍                | 7000/9130 [00:00<00:00, 7919.23 examples/s]Sample labels: [2, 2, 2, 2, 0]
+Mapped labels sample: [2, 2, 2, 2, 0]
+Map:  88%|██████████████████████████████████████████████████████████████▏        | 8000/9130 [00:01<00:00, 8254.09 examples/s]Sample labels: [1, 1, 0, 0, 2]
+Mapped labels sample: [1, 1, 0, 0, 2]
+Map:  99%|█████████████████████████████████████████████████████████████████████▉ | 9000/9130 [00:01<00:00, 8365.46 examples/s]Sample labels: [0, 2, 2, 0, 1]
+Mapped labels sample: [0, 2, 2, 0, 1]
+Map: 100%|███████████████████████████████████████████████████████████████████████| 9130/9130 [00:01<00:00, 7551.74 examples/s]
+Map:   0%|                                                                                    | 0/2282 [00:00<?, ? examples/s]Sample labels: [2, 0, 1, 0, 2]
+Mapped labels sample: [2, 0, 1, 0, 2]
+Map:  44%|███████████████████████████████                                        | 1000/2282 [00:00<00:00, 9981.45 examples/s]Sample labels: [2, 0, 0, 0, 2]
+Mapped labels sample: [2, 0, 0, 0, 2]
+Map:  88%|██████████████████████████████████████████████████████████████▏        | 2000/2282 [00:00<00:00, 9067.92 examples/s]Sample labels: [2, 0, 2, 0, 1]
+Mapped labels sample: [2, 0, 2, 0, 1]
+Map: 100%|███████████████████████████████████████████████████████████████████████| 2282/2282 [00:00<00:00, 9051.78 examples/s]
+Tokenized dataset columns: ['input_ids', 'token_type_ids', 'attention_mask', 'labels']
+Sample tokenized features: dict_keys(['input_ids', 'attention_mask', 'labels'])
+Label counts in fold 4: [3807 2012 3311]
+Adjusted class weights for fold 4: [0.79940461 1.51259112 0.91915836]
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/transformers/training_args.py:1474: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+
+=== Training Fold 5/5 ===
+  0%|                                                                                               | 0/11415 [00:00<?, ?it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2632, 'grad_norm': 1.1879143714904785, 'learning_rate': 5e-05, 'epoch': 0.22}                                      
+{'loss': 0.2323, 'grad_norm': 2.987143039703369, 'learning_rate': 4.770957398076042e-05, 'epoch': 0.44}                       
+{'loss': 0.2845, 'grad_norm': 31.12946319580078, 'learning_rate': 4.541914796152085e-05, 'epoch': 0.66}                       
+{'eval_loss': 0.1832055300474167, 'eval_accuracy': 0.9631901840490797, 'eval_f1': 0.9594498245445048, 'eval_runtime': 101.6557, 'eval_samples_per_second': 22.448, 'eval_steps_per_second': 11.224, 'epoch': 0.66}                                          
+ 13%|██████████▊                                                                       | 1500/11415 [13:22<1:16:16,  2.17it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2617, 'grad_norm': 0.09866542369127274, 'learning_rate': 4.3128721942281264e-05, 'epoch': 0.88}                    
+ 20%|████████████████▍                                                                 | 2283/11415 [20:19<1:02:35,  2.43it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2545, 'grad_norm': 23.371793746948242, 'learning_rate': 4.0838295923041684e-05, 'epoch': 1.1}                      
+{'loss': 0.2454, 'grad_norm': 0.07560789585113525, 'learning_rate': 3.854786990380211e-05, 'epoch': 1.31}                     
+{'eval_loss': 0.22856511175632477, 'eval_accuracy': 0.9500438212094654, 'eval_f1': 0.9437591282278549, 'eval_runtime': 102.9383, 'eval_samples_per_second': 22.169, 'eval_steps_per_second': 11.084, 'epoch': 1.31}                                         
+ 26%|█████████████████████▌                                                            | 3000/11415 [27:37<1:05:26,  2.14it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/peft/utils/other.py:611: UserWarning: Unable to fetch remote file due to the following error (ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: de173980-005c-44cc-8cc4-c85203a9a273)') - silently ignoring the lookup for the file config.json in ProsusAI/finbert.
+  warnings.warn(
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in ProsusAI/finbert - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'loss': 0.2454, 'grad_norm': 0.33732497692108154, 'learning_rate': 3.625744388456253e-05, 'epoch': 1.53}                     
+{'loss': 0.2167, 'grad_norm': 60.31914138793945, 'learning_rate': 3.396701786532295e-05, 'epoch': 1.75}                       
+{'loss': 0.2616, 'grad_norm': 22.15150260925293, 'learning_rate': 3.167659184608337e-05, 'epoch': 1.97}                       
+ 39%|█████████████████████████████████                                                   | 4500/11415 [39:26<53:09,  2.17it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'eval_loss': 0.26286596059799194, 'eval_accuracy': 0.9469763365468887, 'eval_f1': 0.9400432014540113, 'eval_runtime': 102.6017, 'eval_samples_per_second': 22.241, 'eval_steps_per_second': 11.121, 'epoch': 1.97}                                         
+ 39%|█████████████████████████████████                                                   | 4500/11415 [41:08<53:09,  2.17it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 40%|█████████████████████████████████▌                                                  | 4566/11415 [41:43<48:51,  2.34it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.225, 'grad_norm': 0.012068552896380424, 'learning_rate': 2.9386165826843792e-05, 'epoch': 2.19}                    
+{'loss': 0.2456, 'grad_norm': 0.027025412768125534, 'learning_rate': 2.7095739807604216e-05, 'epoch': 2.41}                   
+{'loss': 0.2476, 'grad_norm': 0.2827457785606384, 'learning_rate': 2.4805313788364637e-05, 'epoch': 2.63}                     
+{'eval_loss': 0.20427750051021576, 'eval_accuracy': 0.957931638913234, 'eval_f1': 0.9532585142460221, 'eval_runtime': 102.3784, 'eval_samples_per_second': 22.29, 'eval_steps_per_second': 11.145, 'epoch': 2.63}                                           
+ 53%|███████████████████████████████████████████                                       | 6000/11415 [1:10:31<42:13,  2.14it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2277, 'grad_norm': 32.28076171875, 'learning_rate': 2.251488776912506e-05, 'epoch': 2.85}                          
+ 60%|█████████████████████████████████████████████████▏                                | 6849/11415 [1:17:09<31:36,  2.41it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.216, 'grad_norm': 0.8431446552276611, 'learning_rate': 2.0224461749885477e-05, 'epoch': 3.07}                      
+{'loss': 0.2556, 'grad_norm': 0.05579632893204689, 'learning_rate': 1.79340357306459e-05, 'epoch': 3.29}                      
+{'eval_loss': 0.20445068180561066, 'eval_accuracy': 0.9570552147239264, 'eval_f1': 0.9521552791800891, 'eval_runtime': 102.429, 'eval_samples_per_second': 22.279, 'eval_steps_per_second': 11.139, 'epoch': 3.29}                                          
+ 66%|█████████████████████████████████████████████████████▉                            | 7500/11415 [3:29:05<30:08,  2.16it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2259, 'grad_norm': 11.486926078796387, 'learning_rate': 1.5643609711406325e-05, 'epoch': 3.5}                      
+{'loss': 0.1667, 'grad_norm': 0.009835322387516499, 'learning_rate': 1.3353183692166744e-05, 'epoch': 3.72}                   
+{'loss': 0.212, 'grad_norm': 0.09244182705879211, 'learning_rate': 1.1062757672927166e-05, 'epoch': 3.94}                     
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [3:40:50<18:50,  2.14it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'eval_loss': 0.22288057208061218, 'eval_accuracy': 0.957931638913234, 'eval_f1': 0.9532778712865307, 'eval_runtime': 102.5451, 'eval_samples_per_second': 22.254, 'eval_steps_per_second': 11.127, 'epoch': 3.94}                                          
+ 79%|████████████████████████████████████████████████████████████████▋                 | 9000/11415 [3:42:32<18:50,  2.14it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ 80%|█████████████████████████████████████████████████████████████████▌                | 9132/11415 [3:43:35<16:28,  2.31it/s]/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+{'loss': 0.2148, 'grad_norm': 0.6868430972099304, 'learning_rate': 8.772331653687586e-06, 'epoch': 4.16}                      
+{'loss': 0.1912, 'grad_norm': 0.010423674248158932, 'learning_rate': 6.481905634448007e-06, 'epoch': 4.38}                    
+{'loss': 0.2281, 'grad_norm': 0.028126943856477737, 'learning_rate': 4.191479615208429e-06, 'epoch': 4.6}                     
+{'eval_loss': 0.21458423137664795, 'eval_accuracy': 0.955740578439965, 'eval_f1': 0.950718119641588, 'eval_runtime': 102.7498, 'eval_samples_per_second': 22.209, 'eval_steps_per_second': 11.105, 'epoch': 4.6}                                            
+ 92%|██████████████████████████████████████████████████████████████████████████▌      | 10500/11415 [3:56:00<07:05,  2.15it/s/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{'loss': 0.2484, 'grad_norm': 0.021868225187063217, 'learning_rate': 1.9010535959688503e-06, 'epoch': 4.82}                   
+{'train_runtime': 14588.3896, 'train_samples_per_second': 3.129, 'train_steps_per_second': 0.782, 'train_loss': 0.23313307225364788, 'epoch': 5.0}
+100%|█████████████████████████████████████████████████████████████████████████████████| 11415/11415 [4:03:08<00:00,  1.28s/it]
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 4565/4565 [06:48<00:00, 11.17it/s]
+
+=== Train Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9526
+F1 Score: 0.9479
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9646    0.9598    0.9622      3807
+     neutral     0.9187    0.9215    0.9201      2012
+    negative     0.9594    0.9632    0.9613      3311
+
+    accuracy                         0.9526      9130
+   macro avg     0.9476    0.9481    0.9479      9130
+weighted avg     0.9526    0.9526    0.9526      9130
+
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████████████████████████████████████████████| 1141/1141 [01:42<00:00, 11.17it/s]
+
+=== Validation Set Metrics ===
+Present classes: [0 1 2]
+Accuracy: 0.9632
+F1 Score: 0.9594
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    positive     0.9665    0.9695    0.9680       952
+     neutral     0.9364    0.9364    0.9364       503
+    negative     0.9757    0.9722    0.9740       827
+
+    accuracy                         0.9632      2282
+   macro avg     0.9595    0.9594    0.9594      2282
+weighted avg     0.9632    0.9632    0.9632      2282
+
+/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/finbert_env/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+New best model found for fold 5 with F1: 0.9594
+Model saved to /Users/mohanpanakam/Documents/Finetuning/finetuning/best_model_fold_4
+
+=== Average Metrics Across Folds ===
+Average Train Accuracy: 0.9453
+Average Train F1: 0.9399
+Average Validation Accuracy: 0.9381
+Average Validation F1: 0.9317
+Error loading best model: 'str' object has no attribute 'named_modules'
+Error in main: not enough values to unpack (expected 4, got 3)
+Traceback (most recent call last):
+  File "/Users/mohanpanakam/Library/CloudStorage/OneDrive-IndianInstituteofScience/DeepLearning/DL-7-25/Final/Mohan/finbert_finetune_refactored.py", line 421, in <module>
+ValueError: not enough values to unpack (expected 5, got 4)
+wandb: 
+wandb: 🚀 View run /Users/mohanpanakam/Documents/Finetuning/finetuning/finbert_fold_0 at: https://wandb.ai/mohanpanakam-indian-institute-of-science/huggingface/runs/dwh4b7w1
+wandb: Find logs at: wandb/run-20250624_194039-dwh4b7w1/logs
